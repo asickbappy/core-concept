@@ -1,17 +1,14 @@
-import logo from './logo.svg';
+
+import React from 'react';
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <h1>My heading: {3+5}</h1>
-        <p>My first react paragraph</p>
-      </header>
+    <div>
+      <Header></Header>
     </div>
-  );
+  );  
 }
 
 export default App;
